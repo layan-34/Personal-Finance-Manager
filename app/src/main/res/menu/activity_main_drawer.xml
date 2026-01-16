@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_income"
+            android:icon="@drawable/ic_income"
+            android:title="Income" />
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/ic_expense"
+            android:title="Expenses" />
+        <item
+            android:id="@+id/nav_all_transactions"
+            android:icon="@drawable/ic_transactions"
+            android:title="All Transactions" />
+    </group>
+
+    <item android:title="Planning">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_budgets"
+                    android:icon="@drawable/ic_budget"
+                    android:title="@string/menu_budgets" />
+                <item
+                    android:id="@+id/nav_goals"
+                    android:icon="@drawable/ic_goal"
+                    android:title="@string/menu_goals" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="@string/menu_profile" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/action_settings" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

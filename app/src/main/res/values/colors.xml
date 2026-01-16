@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Deep Blue (Trust & Stability) -->
+    <color name="primary">#1E3A5F</color>
+    <color name="primary_dark">#152A45</color>
+    <color name="primary_light">#2E5A8F</color>
+    <color name="on_primary">#FFFFFF</color>
+    
+    <!-- Secondary Colors - Teal (Growth & Prosperity) -->
+    <color name="secondary">#26A69A</color>
+    <color name="secondary_dark">#00897B</color>
+    <color name="secondary_light">#4DB6AC</color>
+    <color name="on_secondary">#FFFFFF</color>
+    
+    <!-- Accent Color -->
+    <color name="accent">#00BCD4</color>
+    
+    <!-- Background & Surface Colors -->
+    <color name="background">#F5F7FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F0F4F8</color>
+    <color name="on_background">#1A1A1A</color>
+    <color name="on_surface">#1A1A1A</color>
+    <color name="on_surface_variant">#5F6368</color>
+    
+    <!-- Income Colors (Green) -->
+    <color name="income">#43A047</color>
+    <color name="income_light">#81C784</color>
+    <color name="income_background">#E8F5E9</color>
+    <color name="on_income">#FFFFFF</color>
+    
+    <!-- Expense Colors (Red) -->
+    <color name="expense">#E53935</color>
+    <color name="expense_light">#EF5350</color>
+    <color name="expense_background">#FFEBEE</color>
+    <color name="on_expense">#FFFFFF</color>
+    
+    <!-- Balance Colors (Blue) -->
+    <color name="balance">#1976D2</color>
+    <color name="balance_light">#42A5F5</color>
+    <color name="balance_background">#E3F2FD</color>
+    <color name="on_balance">#FFFFFF</color>
+    
+    <!-- Warning & Alert Colors -->
+    <color name="warning">#FF9800</color>
+    <color name="warning_background">#FFF3E0</color>
+    <color name="error">#D32F2F</color>
+    <color name="error_background">#FFCDD2</color>
+    <color name="success">#388E3C</color>
+    <color name="success_background">#C8E6C9</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#5F6368</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_disabled">#BDBDBD</color>
+    
+    <!-- Divider & Border Colors -->
+    <color name="divider">#E0E0E0</color>
+    <color name="border">#DADCE0</color>
+    
+    <!-- Card Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_stroke">#E8E8E8</color>
+    
+    <!-- Navigation Drawer -->
+    <color name="nav_header_start">#1E3A5F</color>
+    <color name="nav_header_end">#26A69A</color>
+    
+    <!-- Chip Colors -->
+    <color name="chip_selected">#1E3A5F</color>
+    <color name="chip_unselected">#E0E0E0</color>
+    
+    <!-- Progress Indicator Colors -->
+    <color name="progress_track">#E0E0E0</color>
+    <color name="progress_indicator">#26A69A</color>
+    
+    <!-- Legacy colors for compatibility -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

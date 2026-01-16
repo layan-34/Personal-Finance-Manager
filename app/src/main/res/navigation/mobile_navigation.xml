@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_income"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.ui.gallery.GalleryFragment"
+        android:label="Income"
+        tools:layout="@layout/fragment_gallery">
+        <argument
+            android:name="filter_type"
+            android:defaultValue="INCOME" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_expenses"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.ui.gallery.GalleryFragment"
+        android:label="Expenses"
+        tools:layout="@layout/fragment_gallery">
+        <argument
+            android:name="filter_type"
+            android:defaultValue="EXPENSE" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_all_transactions"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.ui.gallery.GalleryFragment"
+        android:label="All Transactions"
+        tools:layout="@layout/fragment_gallery">
+        <!-- No filter_type arg defaults to ALL or allows manual filtering -->
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.ui.categories.CategoriesFragment"
+        android:label="@string/menu_categories"
+        tools:layout="@layout/fragment_categories" />
+
+    <fragment
+        android:id="@+id/nav_budgets"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.ui.budgets.BudgetsFragment"
+        android:label="@string/menu_budgets"
+        tools:layout="@layout/fragment_budgets" />
+
+    <fragment
+        android:id="@+id/nav_goals"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.ui.goals.GoalsFragment"
+        android:label="@string/menu_goals"
+        tools:layout="@layout/fragment_goals" />
+
+    <activity
+        android:id="@+id/nav_settings"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.SettingsActivity"
+        android:label="@string/action_settings"
+        tools:layout="@layout/activity_settings" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.ui.reports.ReportsFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reports" />
+
+    <fragment
+        android:id="@+id/nav_charts"
+        android:name="edu.birzeit.a1220775_1221026_courseproject.ui.charts.ChartsFragment"
+        android:label="Charts"
+        tools:layout="@layout/fragment_charts" />
+
+</navigation>
